@@ -1,6 +1,6 @@
 package coding;
 
-public class AirCon implements MainController{
+public class ActorAirCon{
 
 	public int getSensors() {
 		return 0;
