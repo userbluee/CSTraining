@@ -1,16 +1,14 @@
 package coding;
 
+
 public class WindSensor implements Sensors{
 
 	private int windSpeed;
-	
-	public int getInput() {
-		return 0;
-	}
-	
-	public int getSensors() {
+
+	public int getSensors(int input) {
 		
-		windSpeed = getInput();
+		windSpeed = input;
 		return windSpeed;
 	}
+
 }

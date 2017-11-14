@@ -1,18 +1,24 @@
 package coding;
 
+import java.util.Scanner;
+
 public class TempSensor implements Sensors {
 	
-	private int temp;
+	private int temp, roomTemp;
+	Scanner sc = new Scanner(System.in);
 	
-	public int getInput(){
-		return 0;
-	}
-	
-	public int getSensors() {
+	public int getRoom(int rT){
+		this.roomTemp = rT;
 		
-		temp = getInput();
+		return roomTemp;
+	}
+
+	public int getSensors(int input) {
+		
+		temp = input;
 		return temp;
 	}
+	
 
 	
 }

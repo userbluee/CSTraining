@@ -4,16 +4,21 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int time;
-		int temperature;
-		int windSpeed;
+//		int time;
+//		int temperature;
+//		int windSpeed;
 		
 		MainController mc = new MainController();
 		
-		temperature = mc.temperature;
-		time = mc.time;
-		windSpeed = mc.windSpeed;
+		mc.ShowGUI();
 		
-		System.out.printf("temp : %d \ntime: %d \nwind: %d ",temperature,time,windSpeed);
+//		temperature = mc.temperature;
+//		time = mc.time;
+//		windSpeed = mc.windSpeed;
+		
+		//System.out.printf("   temp : %d \n   time: %d \n   wind: %d \n",temperature,time,windSpeed);
+		
+		//mc.ActorStats();
+		
 	}
 }
